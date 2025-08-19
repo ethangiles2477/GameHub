@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Game Hub</title>
   <style>
     body {
@@ -24,7 +25,8 @@
       padding: 20px;
       background: #1f1f1f;
       border-radius: 15px;
-      width: 850px;
+      width: 90%;
+      max-width: 850px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.5);
     }
     h2 {
@@ -32,7 +34,8 @@
       color: #ffcc00;
     }
     iframe {
-      width: 800px;
+      width: 100%;
+      max-width: 800px;
       height: 600px;
       border: none;
       border-radius: 10px;
